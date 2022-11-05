@@ -3,10 +3,8 @@
 
 def analysis():
     # enter the words
-    print('Enter the first word: ')
-    word_one = input()
-    print('Enter the second word: ')
-    word_two = input()
+    word_one = input('Enter the first word: ')
+    word_two = input('Enter the second word: ')
     # first verification
     if len(word_one) != len(word_two):
         print('FALSE')
